@@ -1,17 +1,17 @@
+#NOTE: Before running this code on your pycharm you have to install fontstyle module. 
 import random
-from colorama import *
+
 import fontstyle
 
-#text = fontstyle.apply('GEEKSFORGEEKS', 'bold/Italic/red/GREEN_BG')
+
 
 up=0
 cp=0
-#print(Fore.LIGHTBLUE_EX)
+
 print('*='*175)
 print('*='*175)
 
-#text = colored('Hello, World!', 'red', attrs=['reverse', 'blink'])
-#fontstyle.apply(,'Italic/pink')
+
 str=fontstyle.apply('Hello user!!MIE welcomes you to play S.W.G!!','Italic/black/BLUE_BG')
 str1=fontstyle.apply('Snake-Water-Gun','Italic/red')
 str2='*'*17
@@ -41,7 +41,7 @@ print('*='*175)
 print('=*'*175)
 
 print()
-#print(Fore.LIGHTMAGENTA_EX)
+
 print(str3.center(175))
 
 print(str4.center(175))
